@@ -2,7 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Grid } from "swiper";
 import "../../../node_modules/swiper/swiper-bundle.css";
-import "../../../node_modules/swiper/swiper-bundle.js";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
