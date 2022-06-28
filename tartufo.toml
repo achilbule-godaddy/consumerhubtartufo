@@ -1,0 +1,10 @@
+[tool.tartufo]
+exclude-path-patterns = [
+ {path-pattern = '.pre-commit-config\.yaml', reason='Tartufo base file'},
+ {path-pattern = 'tartufo\.toml', reason='Tartufo base file'}
+]
+exclude-signatures = [
+    
+]
+
+

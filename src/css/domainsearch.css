@@ -1,0 +1,29 @@
+.DomainCheckContainer {
+  width: 18%;
+  float: left;
+  font-size: 15px;
+  border: 1px solid #c2c2c2;
+  margin: 5px;
+}
+
+.DomainCheckDomain {
+  height: 35px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0px 15pd 0px 0px;
+}
+
+.DomainCheckStatus {
+  font-weight: bold;
+  border-top: 1px solid #c2c2c2;
+}
+
+.avalibleStatus {
+  background-color: green;
+  color: #ffffff;
+}
+
+.nonAvalibleStatus {
+  background-color: red;
+  color: #ffffff;
+}
