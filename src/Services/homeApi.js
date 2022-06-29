@@ -32,3 +32,14 @@ export const getSpotlightInfo = async () => {
     console.log("errror while calling getSpotlightInfo API", error);
   }
 };
+
+export const getAllChannelPartner = async () => {
+  try {
+    let response = await axios.get(
+      `${process.env.REACT_APP_API_URL}/cms/hub/home/getAllChannelPartnerHome.php`
+    );
+    return response.data;
+  } catch (error) {
+    console.log("errror while calling getAllTlds API", error);
+  }
+};

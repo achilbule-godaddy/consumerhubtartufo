@@ -719,6 +719,7 @@ select::-ms-expand {
   position: absolute;
   left: 0;
   bottom: 0;
+  padding: 3px;
 }
 .tld-slider .splide__arrows .splide__arrow {
   transform: translate(0);
